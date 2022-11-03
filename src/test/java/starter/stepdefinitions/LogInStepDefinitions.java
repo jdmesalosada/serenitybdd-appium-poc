@@ -24,6 +24,7 @@ public class LogInStepDefinitions {
 
     @Given("John Wick wants to create a new post")
     public void john_want_to_create_a_new_post() {
-        theActorCalled("Jhon").can(BrowseTheWeb.with(hisMobileDevice));
+        theActorCalled("Jhon")
+                .can(BrowseTheWeb.with(hisMobileDevice));
     }
 }
